@@ -42,10 +42,10 @@ body {
     background-color: #d7e1f4;
 }
 
-.carousel-inner .item img {
-    background-color: 0058a8;
-    width: 440px;
-    height: 220px;
+.carousel-inner .item .img {
+    background-color: gray;
+    width: 640px;
+    height: 360px;
 }
 
 .site-section {
