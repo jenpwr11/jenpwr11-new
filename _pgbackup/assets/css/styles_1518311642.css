@@ -1,6 +1,6 @@
 body {
     font-family: arial, helvetica,sans-serif;
-    background-color: #0058a8;
+    background-color: rgb(13,79,156);
 }
 
 #logo {
@@ -48,10 +48,10 @@ body {
     height: 220px;
 }
 
-.container .two-image img {
+.container .2-image img {
     background-color: 0058a8;
     width: 440px;
-    height: 320px;
+    height: 220px;
 }
 
 .site-section {
