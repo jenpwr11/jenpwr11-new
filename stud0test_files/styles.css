@@ -1,6 +1,8 @@
 body {
     font-family: arial, helvetica,sans-serif;
     background-color: rgb(13,79,156);
+    font-size: 20px;
+    padding: 5px 0px;
 }
 
 #logo {
