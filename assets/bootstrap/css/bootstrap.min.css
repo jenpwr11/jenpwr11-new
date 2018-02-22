@@ -60,7 +60,11 @@ template {
 }
 
 a {
-    background-color: transparent;
+    background-color: solid;
+}
+
+.dropdown-menu {
+    background-color: #e60000;
 }
 
 a:active,
@@ -1430,7 +1434,7 @@ textarea {
 }
 
 a {
-    color: #4582ec;
+    color: #e445ec;
     text-decoration: none;
 }
 
@@ -4464,7 +4468,7 @@ tbody.collapse.in {
     list-style: none;
     font-size: 16px;
     text-align: left;
-    background-color: #ffffff;
+    background-color: #f6f7fb;
     border: 1px solid #cccccc;
     border: 1px solid rgba(0,0,0,0.15);
     border-radius: 4px;
@@ -4500,7 +4504,7 @@ tbody.collapse.in {
 .dropdown-menu>li>a:focus {
     text-decoration: none;
     color: #ffffff;
-    background-color: #4582ec;
+    background-color: #e60000;
 }
 
 .dropdown-menu>.active>a,
@@ -4509,7 +4513,7 @@ tbody.collapse.in {
     color: #ffffff;
     text-decoration: none;
     outline: 0;
-    background-color: #4582ec;
+    background-color: #e60000;
 }
 
 .dropdown-menu>.disabled>a,
@@ -4587,6 +4591,7 @@ tbody.collapse.in {
     .navbar-right .dropdown-menu {
         left: auto;
         right: 0;
+        background-color: #eef2f6;
     }
 
     .navbar-right .dropdown-menu-left {

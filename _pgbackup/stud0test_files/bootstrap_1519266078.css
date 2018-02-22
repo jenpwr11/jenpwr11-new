@@ -58,8 +58,7 @@ template {
 }
 
 a {
-    /*background-color: transparent
-*/
+    background-color: transparent;
 }
 
 a:active,
@@ -4486,7 +4485,7 @@ tbody.collapse.in {
     clear: both;
     font-weight: normal;
     line-height: 1.42857143;
-    color: #ffffff;
+    color: #333333;
     white-space: nowrap;
 }
 

@@ -29,21 +29,8 @@ p {
     height: 160px;
 }
 
-/** ---- dropdown menu background color------- **/
-.navbar-nav>li>.dropdown-menu {
-    background-color: #0077e6;
-}
-
-/** ---- dropdown text color------- **/
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #ffffff;
-}
-
-/** ---- dropdown text color------- **/
-.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
-    color: #060000;
-    background-color: transparent;
+.dropdown-menu .li .a: {
+    color: #090000;
 }
 
 #logo {
@@ -97,10 +84,6 @@ p {
     height: 320px;
 }
 
-.dropdown-menu .li a {
-    background-color: #e60000;
-}
-
 .site-section {
     padding-bottom: 70px;
     position: fixed;
@@ -152,10 +135,4 @@ p {
     color: #333333;
     background-color: #257e5b;
     border-color: transparent;
-}
-
-
-
-
-
 }

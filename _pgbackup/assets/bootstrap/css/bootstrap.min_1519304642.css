@@ -20,7 +20,9 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0px;
+    padding: 80px 0px;
+    color: #ffffff;
 }
 
 article,
@@ -58,7 +60,7 @@ template {
 }
 
 a {
-    background-color: transparent;
+    background-color: solid;
 }
 
 a:active,
@@ -1460,7 +1462,9 @@ img {
 .carousel-inner>.item>a>img {
     display: block;
     max-width: 100%;
-    height: auto;
+
+    /*height: auto
+*/
 }
 
 .img-rounded {
@@ -1626,12 +1630,15 @@ h2,
 
 h3,
 .h3 {
-    font-size: 28px;
+    font-size: 27px;
 }
 
 h4,
 .h4 {
     font-size: 20px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h5,
@@ -4457,7 +4464,7 @@ tbody.collapse.in {
     list-style: none;
     font-size: 16px;
     text-align: left;
-    background-color: #ffffff;
+    background-color: #f6f7fb;
     border: 1px solid #cccccc;
     border: 1px solid rgba(0,0,0,0.15);
     border-radius: 4px;
@@ -4580,6 +4587,7 @@ tbody.collapse.in {
     .navbar-right .dropdown-menu {
         left: auto;
         right: 0;
+        background-color: #eef2f6;
     }
 
     .navbar-right .dropdown-menu-left {
@@ -5221,7 +5229,11 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     position: relative;
     min-height: 65px;
     margin-bottom: 22px;
-    border: 1px solid transparent;
+
+    /*border: 1px solid transparent
+*/
+    top: 0px;
+    background-color: #0058a8;
 }
 
 @media (min-width:768px){
@@ -5609,12 +5621,12 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default {
-    background-color: #ffffff;
+    background-color: #0058a8;
     border-color: #dddddd;
 }
 
 .navbar-default .navbar-brand {
-    color: #4582ec;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -5628,7 +5640,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #4582ec;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -5640,7 +5652,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #4582ec;
+    color: #ffffff;
     background-color: transparent;
 }
 
@@ -5666,7 +5678,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-    border-color: #dddddd;
+    border-color: #0058a8;
 }
 
 .navbar-default .navbar-nav>.open>a,
@@ -6169,8 +6181,8 @@ a.badge:focus {
 
 .jumbotron {
     padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     color: inherit;
     background-color: #f7f7f7;
 }
@@ -6184,6 +6196,9 @@ a.badge:focus {
     margin-bottom: 15px;
     font-size: 24px;
     font-weight: 200;
+    color: #ffffff;
+    background-color: #092caa;
+    text-align: center;
 }
 
 .jumbotron>hr {
@@ -6203,8 +6218,8 @@ a.badge:focus {
 
 @media screen and (min-width:768px){
     .jumbotron {
-        padding-top: 48px;
-        padding-bottom: 48px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .container .jumbotron,
@@ -7688,6 +7703,7 @@ button.close {
     position: relative;
     overflow: hidden;
     width: 100%;
+    height: 100%;
 }
 
 .carousel-inner>.item {
@@ -7995,9 +8011,12 @@ button.close {
 }
 
 .center-block {
-    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
+    padding-bottom: 4px;
+    width: 100%;
+    height: auto;
 }
 
 .pull-right {
