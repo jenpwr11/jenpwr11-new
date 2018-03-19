@@ -86,7 +86,7 @@ footer.nb-footer .footer-info-single .title {
 /** ----------------------- links------- **/
 footer.nb-footer .footer-info-single ul li a {
     display: block;
-    color: #E4E6F0;
+    color: green;
     font-weight: 200;
     padding: 2px 0;
 }

@@ -95,6 +95,15 @@ footer.nb-footer .footer-info-single ul li a:hover {
     color: #b78c33;
 }
 
+footer.nb-footer .footer-info-single p {
+    font-size: 13px;
+    line-height: 20px;
+    color: color: ;
+    #E4E6F0: ;
+    margin-left: 2px;
+    text-align: left;
+}
+
 footer.nb-footer .copyright {
     margin-top: 15px;
     background: #111;
