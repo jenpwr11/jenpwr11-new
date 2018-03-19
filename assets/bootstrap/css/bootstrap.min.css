@@ -1686,7 +1686,8 @@ mark,
 }
 
 .text-left {
-    text-align: left;
+    text-align: center;
+    grid-column-gap: 10px;
 }
 
 .text-right {
