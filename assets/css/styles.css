@@ -5,6 +5,11 @@ body {
     padding: 5px 0px;
 }
 
+a navbar-brand {
+    font-size: 20px;
+    color: green;
+}
+
 h1 {
     color: #ffffff;
     margin-left: auto;
@@ -35,10 +40,11 @@ p {
 
 .company-name {
     color: #ffff00;
+    font-size: 32px;
 }
 
 .company-name-aft {
-    font-size: 31px;
+    font-size: 20px;
 }
 
 .house-logo {
