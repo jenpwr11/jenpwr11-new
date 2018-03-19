@@ -6,12 +6,6 @@ body {
     padding: 3rem 1.5rem;
 }
 
-.jen-log {
-    width: 60%;
-    margin-top: 2px;
-    padding-top: 2px;
-}
-
 footer.nb-footer {
     background: #232126;
     https: //codecanyon.net/;
@@ -21,7 +15,7 @@ footer.nb-footer {
 
 footer.nb-footer .about {
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 40px;
     max-width: 1170px;
     text-align: center;
 }
@@ -29,7 +23,7 @@ footer.nb-footer .about {
 footer.nb-footer .about .connect {
     font-size: 23px;
     color: #DE3A30;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 footer.nb-footer .about .social-media {
@@ -78,7 +72,7 @@ footer.nb-footer .about .social-media ul li a:hover {
 }
 
 footer.nb-footer .footer-info-single {
-    margin-top: 5px;
+    margin-top: 30px;
 }
 
 /** -------------------- section titles------- **/
@@ -95,7 +89,6 @@ footer.nb-footer .footer-info-single ul li a {
     color: #E4E6F0;
     font-weight: 200;
     padding: 2px 0;
-    font-size: 19px;
 }
 
 footer.nb-footer .footer-info-single ul li a:hover {
@@ -103,6 +96,7 @@ footer.nb-footer .footer-info-single ul li a:hover {
 }
 
 footer.nb-footer .copyright {
+    margin-top: 15px;
     background: #111;
     padding: 7px 0;
     color: #999;
