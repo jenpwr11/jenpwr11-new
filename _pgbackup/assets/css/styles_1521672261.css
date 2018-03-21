@@ -11,11 +11,11 @@ body {
     padding-bottom: 1px;
 }
 
-/**
 a navbar-brand {
     font-size: 20px;
     color: green;
-}**/
+}
+
 .navbar .navbar-nav>li>a {
     padding: 8px 4px;
 }
@@ -50,7 +50,7 @@ p {
 }
 
 .company-name {
-    color: green;
+    color: #ffff00;
     font-size: 32px;
 }
 
@@ -73,7 +73,7 @@ p {
 
 .navbar-brand>img {
     height: 100%;
-    padding: ;
+    padding: 15px;
     width: auto;
 }
 
