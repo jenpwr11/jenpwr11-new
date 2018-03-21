@@ -80,6 +80,11 @@ p {
     display: inline-block;
 }
 
+.phone-button {
+    width: 100%;
+    text-align: center;
+}
+
 #promo {
     text-align: center;
     padding: 40px;
@@ -112,6 +117,11 @@ p {
     background-color: #d7e1f4;
 }
 
+/** ---------Carousel Image Size Adjustment------- **/
+.cara {
+    margin-bottom: 0px;
+}
+
 .carousel-inner .item img {
     background-color: #0058a8;
     width: 470px;
@@ -121,11 +131,12 @@ p {
 @media (max-width: 600px) {
     .carousel-inner .item img {
         background-color: #0058a8;
-        width: 270px;
+        width: 190px;
         height: 130px;
     }
 }
 
+/** ---- End Carousel Image Size Adjustment------- **/
 .container .two-image img {
     background-color: 0058a8;
     width: 440px;
