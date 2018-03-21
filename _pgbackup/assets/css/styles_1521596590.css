@@ -1,12 +1,13 @@
 body {
     font-family: arial, helvetica,sans-serif;
     background-color: #0058a8;
+    margin: 0px;
+    padding: 5px 0px;
 }
 
-h3 {
-    color: #ffffff;
-    margin-left: 20px;
-    margin-right: 20px;
+a navbar-brand {
+    font-size: 20px;
+    color: green;
 }
 
 h1 {
@@ -16,15 +17,60 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h3 {
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
 p {
     color: #ffffff;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 15px;
+}
+
+.company-name {
+    color: #ffff00;
+    font-size: 32px;
+}
+
+.company-name-aft {
+    font-size: 20px;
 }
 
 .house-logo {
-    width: 240px;
-    height: 200px;
+    width: 200px;
+    height: 160px;
+}
+
+.container .jumbotron {
+    Padding: 0;
+}
+
+/** ---- dropdown menu background color------- **/
+.navbar-nav>li>.dropdown-menu {
+    background-color: #0077e6;
+}
+
+/** ---- dropdown text color------- **/
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #ffffff;
+}
+
+/** ---- dropdown text color------- **/
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #060000;
+    background-color: transparent;
 }
 
 #logo {
@@ -67,15 +113,27 @@ p {
 }
 
 .carousel-inner .item img {
-    background-color: 0058a8;
+    background-color: #0058a8;
     width: 470px;
     height: 280px;
+}
+
+@media (max-width: 600px) {
+    .carousel-inner .item img {
+        background-color: #0058a8;
+        width: 270px;
+        height: 130px;
+    }
 }
 
 .container .two-image img {
     background-color: 0058a8;
     width: 440px;
     height: 320px;
+}
+
+.dropdown-menu .li a {
+    background-color: #e60000;
 }
 
 .site-section {
@@ -127,6 +185,12 @@ p {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
     color: #333333;
-    background-color: rgb(255,255,1);
+    background-color: #257e5b;
     border-color: transparent;
+}
+
+
+
+
+
 }
