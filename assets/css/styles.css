@@ -5,9 +5,19 @@ body {
     padding: 5px 0px;
 }
 
+.navbar {
+    color: red;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+
 a navbar-brand {
     font-size: 20px;
     color: green;
+}
+
+.navbar .navbar-nav>li>a {
+    padding: 8px 4px;
 }
 
 h1 {
@@ -15,6 +25,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-bottom: 1px;
 }
 
 h2 {
@@ -44,7 +55,7 @@ p {
 }
 
 .company-name-aft {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .house-logo {
@@ -54,6 +65,16 @@ p {
 
 .container .jumbotron {
     Padding: 0;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
 }
 
 /** ---- dropdown menu background color------- **/
@@ -134,74 +155,77 @@ p {
         width: 190px;
         height: 130px;
     }
+
+    /** ---- dropdown text color-------    
+.navbar-brand {
+    
+    display: none;
+    }
+    
 }
 
-/** ---- End Carousel Image Size Adjustment------- **/
-.container .two-image img {
-    background-color: 0058a8;
-    width: 440px;
-    height: 320px;
-}
+**/
+    /** ---- End Carousel Image Size Adjustment------- **/
+    .container .two-image img {
+        background-color: 0058a8;
+        width: 440px;
+        height: 320px;
+    }
 
-.dropdown-menu .li a {
-    background-color: #e60000;
-}
+    .dropdown-menu .li a {
+        background-color: #e60000;
+    }
 
-.site-section {
-    padding-bottom: 70px;
-    position: fixed;
-    text-align: left;
-    font-style: normal;
-}
+    .site-section {
+        padding-bottom: 70px;
+        position: fixed;
+        text-align: left;
+        font-style: normal;
+    }
 
-.site-section h1 {
-    font-weight: normal;
-    margin-bottom: 30PX;
-    margin-top: 60px;
-}
+    .site-section h1 {
+        font-weight: normal;
+        margin-bottom: 30PX;
+        margin-top: 60px;
+    }
 
-#WELCOME p {
-    max-width: 800PX;
-    font-size: 20PX;
-    margin: 0 AUTO;
-    color: #666;
-}
+    #WELCOME p {
+        max-width: 800PX;
+        font-size: 20PX;
+        margin: 0 AUTO;
+        color: #666;
+    }
 
-.services-wrapper img {
-    width: 440px;
-    height: 250px;
-}
+    .services-wrapper img {
+        width: 440px;
+        height: 250px;
+    }
 
-#why .item {
-    padding-top: 38px;
-}
+    #why .item {
+        padding-top: 38px;
+    }
 
-#why .item i {
-    font-size: 42px;
-    color: rgb(78,7,67);
-}
+    #why .item i {
+        font-size: 42px;
+        color: rgb(78,7,67);
+    }
 
-#why .item h2 {
-    font-weight: normal;
-    margin-top: 13px;
-    margin-bottom: 20px;
-    font-size: 24px;
-}
+    #why .item h2 {
+        font-weight: normal;
+        margin-top: 13px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
 
-#why .item p {
-    color: #696e78;
-}
+    #why .item p {
+        color: #696e78;
+    }
 
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
-    color: #333333;
-    background-color: #257e5b;
-    border-color: transparent;
-}
-
-
-
-
-
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar-inverse .navbar-nav > .active > a:focus {
+        color: #333333;
+        background-color: #257e5b;
+        border-color: transparent;
+    }
 }
