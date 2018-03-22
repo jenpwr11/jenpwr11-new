@@ -50,7 +50,7 @@ p {
 }
 
 .company-name {
-    color: #D8DCF1;
+    color: green;
     font-size: 32px;
 }
 
@@ -68,15 +68,13 @@ p {
 }
 
 .navbar-brand {
-    padding: 1px;
-    margin-right: 20px;
+    padding: 0px;
 }
 
 .navbar-brand>img {
     height: 100%;
-    padding: 1px;
+    padding: ;
     width: auto;
-    margin-left: 10px;
 }
 
 /** ---- dropdown menu background color------- **/
